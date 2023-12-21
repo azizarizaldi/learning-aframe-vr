@@ -2,6 +2,11 @@
 
 <head>
   <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  <title>360 VR - Santa Claus Village Amusement park in Rovaniemi, Finland</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
 </head>
 
 <body>
@@ -17,10 +22,10 @@
     </a-camera>
 
     <a-videosphere src="#example-video" rotation="0 -90 0"></a-videosphere>
-
-    <!-- <a-image id="videoControls" src="#play" position="0 0.5 -2" scale="0.2 0.2 1"
+    <a-text value="Location: Santa Claus Village Amusement park in Rovaniemi, Finland" position="0.2 1 -2" scale="0.35 0.35 1"></a-text>
+    <a-image id="videoControls" src="#play" position="0 1 -2" scale="0.2 0.2 1"
       play-pause>
-    </a-image> -->
+    </a-image>
   </a-scene>
 
   <script>
